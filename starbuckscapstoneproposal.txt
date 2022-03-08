@@ -1,0 +1,77 @@
+CAPSTONE 3 PROPOSAL
+STARBUCKS CUSTOMER PURCHASE HABITS THROUGH MOBILE APP
+
+
+Mike Batista
+Springboard
+
+CONTEXT
+
+Not everyone drinks coffee, but many of those who do drink it every day. That means that while Starbucks might be sitting on top of the world coffee market in 2022, any change in daily habits could make the marketplace much more competitive.
+
+Starbucks earned $29.1 billion in revenue in 2021, according to World Coffee Portal. Dunkin Donuts, Starbucks’ closest competitor in the U.S., recorded $1.37 billion in revenue in 2019, the most recent year available.
+
+This market dominance is due in part to the branding of Starbucks as an upscale coffee establishment and, at least up until the pandemic, a gathering place for students and professionals.
+
+However, about 2,000 coffee shops open up in the U.S. per year, according to IBIS World. Starbucks needs to remain part of customers’ daily habits and  prevent any of these new businesses from becoming the next trendy coffee shop.
+
+As of November of 2020, almost 25 percent of all orders in Starbucks stores were placed through their mobile app, according to Inc.com. 
+
+Starbucks wants to keep customers engaged by being able to predict a time frame within which they will make their next purchase. 
+
+CRITERIA FOR SUCCESS
+
+Maintain or increase the 25 percent rate at which customers buy through the app.
+
+SCOPE OF SOLUTION SPACE
+
+If a customer’s predicted purchase time frame passes, an offer on the app will be made to keep that customer in the habit of buying from Starbucks. We also can see if offers can increase the frequency of some customers.
+
+CONSTRAINTS WITHIN SOLUTION SPACE
+
+We have 30 days of data. While that is plenty of time to outline the habits of customers in a day-to-day business like Starbucks, it is season-agnostic. Buying habits might be a little different during the holiday season, for example, or they could be different during the summer when vacations take people out of their daily routine.
+
+STAKEHOLDERS
+
+Kevin Johnson - President and Chief Executive Officer
+John Culver - Group President, North America and Chief Operating Officer
+Rachel Ruggeri - Executive Vice President and Chief Financial Officer
+Brady Brewer - Executive Vice President and Chief Marketing Officer
+Janet Landers - Senior Vice President, Business Technology
+
+KEY DATA SOURCES
+
+Customer profile
+
+How long they have been customers through the mobile app
+Age
+Gender
+Income
+
+Portfolio of offers
+
+Rewards: Stars given for completing offer
+Channels: Web, email, mobile, social
+Difficulty: How much customer must spend to complete offer
+Duration: Duration of the offer in days
+Offer Type: buy-one-get-one, discount, informational
+
+Transcript
+
+Event: Offer received, offer viewed, offer completed, transaction
+Time: Time in hours measuring customer activity
+
+ANTICIPATED APPROACH
+
+This will require machine learning models that classify customers into groups that indicate the time range within which they are predicted to make their next purchase.
+
+K-Means clustering likely will be used to engineer some of the features into groups.
+
+For the final model, Random Forest is usually a good starting point. If necessary, gradient boosting and possibly extreme gradient boosting could be applied.
+
+DELIVERABLES
+
+Jupyter notebooks containing the code for our models.
+Final written report
+Slide deck
+Dashboards 
